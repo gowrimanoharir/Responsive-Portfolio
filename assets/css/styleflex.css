@@ -1,0 +1,189 @@
+
+/*Defines the box model to use*/
+*{
+	box-sizing: border-box;
+}
+
+
+/*Sets the background image of the page*/
+body{
+	background-image: url("../images/background.png");
+}
+
+/*style for the Header section*/
+.hdr{
+  display: flex;
+  flex-flow: row wrap;
+  width: 100%;
+  height: 100px;
+  background-color: #ffffff;
+}
+
+.hdrbdr{
+	border-bottom: 2px solid #cccccc;
+}
+
+.hfnt{
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 24px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 20px 0 20px 0;
+}
+
+/*style for the Name block*/
+.nam{
+  display: flex;
+  justify-content: flex-start;
+  width: 65%;
+  height: 98px;
+}
+
+.n1{
+  background-color: #4aaaa5;
+  height: 98px;
+  margin-left: 290px;
+ }
+
+.nmfntprp{
+	color: #ffffff;
+	padding: 30px;
+	text-decoration: none;
+}
+
+
+/*style for the Navigation block*/	
+
+.lnks{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 35%;
+}
+
+.navlnk{
+	padding: 0 10px 0 10px;
+	color: #a5a5a5;
+	text-decoration: none;
+	font-weight: bold;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.navlnk:hover {
+	text-decoration: underline;
+}
+
+.navbdr{
+	border-right: 1px solid #cccccc;
+}
+
+/*style for the content section*/
+.container {
+	display: flex;
+  	flex-flow: row wrap;
+  	justify-content: flex-start;
+	width: 960px;
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	line-height: 150%;
+	color: #777777;
+	margin: 0 auto;
+	margin-bottom: 100px;
+	overflow: auto;
+}
+
+.cntbk{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	background-color: #ffffff;
+	width: 650px;
+	border: 1px solid #cccccc;
+	margin-top: 40px;
+}
+
+/*style for the Portfolio block*/
+.prtf{
+	display: flex;
+	flex-wrap: wrap;
+	width: 90%;
+}
+
+.myimg {
+	margin: 20px;
+}
+
+.imgpos{
+	position: relative;
+}
+
+.ovrltxtpos{
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+	margin-left: 20px;
+}
+
+.ovrltxtprp{
+	width: 250px;
+	height: 50px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-weight: bold;
+	text-align: center;
+	padding: 10px 0 10px 0;
+}
+
+
+/*style for the Contact block*/
+.cnctme{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	background-color: #ffffff;
+	width: 270px;
+	height: 170px;
+	border: 1px solid #cccccc;
+	margin-top: 40px;
+	margin-left: 40px;
+	padding: 20px;
+}
+
+.cncthdr{
+	width: 90%;
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding: 0 15px 10px 15px;
+}
+
+.cncticon{
+	width: 50px;
+	height: 50px;
+	margin-top: 20px;
+}
+
+
+/*style for the Footer section*/
+.ftr{
+	clear: both;
+	position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 70px;
+    width: 100%;
+    background-color: #666666;
+    color: #bdbdb1;
+    border-top: 5px solid #4aaaa5;
+}
+
+.ftrfnt{
+	font-family: arial;
+    font-size: 80%;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
