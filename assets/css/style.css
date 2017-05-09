@@ -189,5 +189,88 @@ body{
     padding-top: 20px;
 }
 
+/*Media queries for width 980px*/
 
+@media screen and (max-width:980px) and (min-width:769px)
+{	
+	/*changes to header section*/
+	.hdrbk{
+		height: 90px;
+	}
+
+	.nmbk{
+		margin-left: 125px;
+		height: 88px;
+	}
+
+	.navpn{
+		margin-right: 60px;
+	}
+
+	.navlnk{
+		font-size: 0.9em;
+	}
+	
+	/*changes to Container section*/
+	.container{
+		width: 900px;
+		font-size: 0.9em;
+	}
+
+	/*changes to About Me section*/
+
+	.cntbk{
+		width: 45%;
+		margin-left: 100px;
+		margin-top: 30px;
+	}
+
+	.myimg{
+		width: 100%;
+		float: none;
+		margin: 10px auto;
+	}
+
+	/*changes to Contact Form*/
+
+	.ipboxwd{
+		width: 100%;
+	}
+	
+	/*changes to Contact Block*/
+	.cnctme{
+		width:25%;
+		float: left;
+		margin-left: 30px;
+		margin-top: 30px;
+		padding: 15px 10px 15px 10px;
+	}
+
+	.cncthdr{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.cncticon{
+	width: 50px;
+	height: 50px;
+	margin: 15px 5px 10px 5px;
+	}	
+
+}
+
+@media screen and (max-width:768px) and (min-width:641px) {
+
+	.container{
+		width: 700px;
+		margin: 0 auto;
+	}
+
+
+}
+
+@media screen and (max-width:640px) {
+
+	
+}
 
