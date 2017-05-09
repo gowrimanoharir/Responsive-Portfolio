@@ -261,15 +261,145 @@ body{
 
 @media screen and (max-width:768px) and (min-width:641px) {
 
-	.container{
-		width: 700px;
-		margin: 0 auto;
+	
+/*changes to header section*/
+	.hdrbk{
+		height: 80px;
 	}
 
+	.nmbk{
+		margin-left: 20px;
+		height: 78px;
+	}
+	
+	.hfnt{
+		font-size: 20px;
+	}
+
+	.navlnk{
+		font-size: 0.9em;
+
+	}
+	
+	/*changes to Container section*/
+	.container{
+		width: 700px;
+		font-size: 0.9em;
+	}
+
+	/*changes to About Me section*/
+
+	.cntbk, .cnctme{
+		width: 100%;
+		margin-top: 20px;
+	}
+	
+	.cntbk .hfnt{
+		padding-top: 5px;
+	}
+
+	.myimg{
+		width: 50%;
+	}
+
+	/*changes to Contact Form*/
+
+	.ipboxwd{
+		width: 100%;
+	}
+	
+	/*changes to Contact Block*/
+	.cnctme{
+		padding: 15px 10px 15px 10px;
+	}
+
+	.cncthdr{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.cncticon{
+	width: 50px;
+	height: 50px;
+	margin: 15px 5px 10px 5px;
+	}	
 
 }
 
 @media screen and (max-width:640px) {
+/*changes to header section*/
+	
+	.hdrbk, .nmbk{
+		width: 640px;
+	}
+
+
+	.nmbk{
+		width: 100%;
+		float: none;
+		height: 68px;
+	}
+	
+	.hfnt{
+		font-size: 18px;
+	}
+
+	.navpn{
+		float: none;
+		width: 100%;
+		height: 40px;
+		margin-left: 250px;
+	}
+
+	.navlnk{
+		font-size: 0.9em;
+
+	}
+	
+	/*changes to Container section*/
+	.container{
+		width: 640px;
+		font-size: 0.9em;
+	}
+
+	/*changes to About Me section*/
+
+	.cntbk, .cnctme{
+		width: 100%;
+		margin-top: 10px;
+	}
+	
+	.cntbk .hfnt{
+		padding-top: 5px;
+	}
+
+	.myimg{
+		width: 100%;
+	}
+
+	/*changes to Contact Form*/
+
+	.ipboxwd{
+		width: 100%;
+	}
+	
+	/*changes to Contact Block*/
+	.cnctme{
+		padding: 15px 10px 15px 10px;
+	}
+
+	.cncthdr{
+		font-size: 18px;
+		margin-top: 10px;
+	}
+
+	.cncticon{
+	width: 50px;
+	height: 50px;
+	margin: 15px 5px 10px 5px;
+	}	
+
+}
 
 	
 }
