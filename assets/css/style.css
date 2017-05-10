@@ -199,29 +199,22 @@ body{
 	}
 
 	.nmbk{
-		margin-left: 125px;
+		margin-left: 90px;
 		height: 88px;
 	}
 
-	.navpn{
-		margin-right: 60px;
-	}
-
-	.navlnk{
-		font-size: 0.9em;
-	}
-	
+			
 	/*changes to Container section*/
 	.container{
 		width: 900px;
-		font-size: 0.9em;
+		font-size: 1.1em;
 	}
 
 	/*changes to About Me section*/
 
 	.cntbk{
-		width: 45%;
-		margin-left: 100px;
+		width: 55%;
+		margin-left: 50px;
 		margin-top: 30px;
 	}
 
@@ -231,6 +224,10 @@ body{
 		margin: 10px auto;
 	}
 
+	.abtme{
+		padding: 10px;
+	}
+	
 	/*changes to Contact Form*/
 
 	.ipboxwd{
@@ -239,23 +236,22 @@ body{
 	
 	/*changes to Contact Block*/
 	.cnctme{
-		width:25%;
+		width:30%;
 		float: left;
-		margin-left: 30px;
+		margin-left: 40px;
 		margin-top: 30px;
-		padding: 15px 10px 15px 10px;
+		padding: 15px;
 	}
 
-	.cncthdr{
-		font-size: 18px;
-		margin-top: 10px;
+	/*.cncthdr{
+		padding: 0 15px 10px 20px;
 	}
 
 	.cncticon{
 	width: 50px;
 	height: 50px;
-	margin: 15px 5px 10px 5px;
-	}	
+	margin: 15px 10px 10px 10px;
+	}	*/
 
 }
 
