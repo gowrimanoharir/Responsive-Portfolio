@@ -32,10 +32,10 @@ body{
 
 /*style for the Name block*/
 .nam{
-  display: flex;
-  justify-content: flex-start;
+  display: inline-flex;
   width: 65%;
   height: 98px;
+  
 }
 
 .n1{
@@ -54,7 +54,7 @@ body{
 /*style for the Navigation block*/	
 
 .lnks{
-  display: flex;
+  display: inline-flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
@@ -190,72 +190,6 @@ body{
 
 @media screen and (max-width:980px) and (min-width:769px)
 {	
-	/*changes to header section*/
-	.hdr{
-		height: 90px;
-	}
 
-	.hfnt{
-		font-size: 20px;
-	}
-
-	.n1{
-		margin-left: 125px;
-		height: 88px;
-	}
-
-	.lnks{
-		margin-right: 70px;
-	}
-
-	.navlnk{
-		font-size: 0.9em;
-	}
-	
-	/*changes to Container section*/
-	.container{
-		width: 900px;
-		font-size: 0.9em;
-	}
-
-	/*changes to Portfolio section*/
-
-	.cntbk{
-		width: 45%;
-		flex-flow: column nowrap;
-		align-items: center;
-		margin-left: 100px;
-		margin-top: 30px;
-	}
-
-	.prtf{
-		flex-flow: column nowrap;
-		width: 90%;
-	}
-
-	.myimg, .ovrltxtprp{
-		width: 100%;
-		margin-left: 0;
-	}
-
-	/*changes to Contact Block*/
-	.cnctme{
-		width:25%;
-		float: left;
-		margin-left: 30px;
-		margin-top: 30px;
-		padding: 15px 10px 15px 10px;
-	}
-
-	.cncthdr{
-		font-size: 17px;
-		margin-top: 10px;
-	}
-
-	.cncticon{
-	width: 50px;
-	height: 50px;
-	margin: 15px 5px 10px 5px;
-	}	
 
 }
